@@ -5,7 +5,7 @@ set up tailwing , with tw- prefix  , content path, century gothic font.
  package.json{
 
     "scripts": {
-    "start": "npm run build:css && node ./bin/www",
-    "build:css": "postcss public/stylesheets/tailwind.css -o public/stylesheets/style.css"
+    "start": "npm run watch && node ./bin/www",
+    "watch": "npx tailwindcss -i ./public/stylesheets/style.css -o ./public/stylesheets/output.css --watch"
   },
  }
