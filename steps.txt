@@ -1,0 +1,3 @@
+set up tailwing , with tw- prefix  , content path, century gothic font. 
+ Need to fix bootstrap css and js link using app.use middlware. 
+ 
