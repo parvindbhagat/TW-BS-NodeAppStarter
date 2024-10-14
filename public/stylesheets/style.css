@@ -6,7 +6,7 @@ body {
   height: 100%;
   padding: 0;
   margin: 0;
-  font-family:  'Century Gothic';
+  font-family:  'Century Gothic', 'century-gothic', sans-serif !important;
   box-sizing: border-box;
 }
 
