@@ -1,3 +1,11 @@
 set up tailwing , with tw- prefix  , content path, century gothic font. 
  Need to fix bootstrap css and js link using app.use middlware. 
  
+ Run the watch tailwind css builder along with app run cammand =>  
+ package.json{
+
+    "scripts": {
+    "start": "npm run build:css && node ./bin/www",
+    "build:css": "postcss public/stylesheets/tailwind.css -o public/stylesheets/style.css"
+  },
+ }
