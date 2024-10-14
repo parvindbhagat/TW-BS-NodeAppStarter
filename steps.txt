@@ -8,4 +8,4 @@ set up tailwing , with tw- prefix  , content path, century gothic font.
     "start": "npm run watch && node ./bin/www",
     "watch": "npx tailwindcss -i ./public/stylesheets/style.css -o ./public/stylesheets/output.css --watch"
   },
- }
+ }  //didnt work when both start and watch cammands are ran with nodemon, using watch in separate terminal and running nodemon on main terminal.
